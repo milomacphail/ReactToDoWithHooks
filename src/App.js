@@ -7,7 +7,7 @@ function Todo({todo, index}) {
 }
 
 
-function TodoForm(addTodo){
+function TodoForm({addTodo}){
   const [value, setValue] = useState('');
 
   const handleSubmit = e => {
